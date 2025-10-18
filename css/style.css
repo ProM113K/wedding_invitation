@@ -90,6 +90,8 @@ body {
     align-items: center;
     gap: 8px;
     transition: transform 0.3s ease;
+    /* Tambahkan baris ini untuk menengahkan tombol */
+    margin: 0 auto; 
 }
 
 .btn-open:hover {

@@ -260,9 +260,12 @@ body {
     background-color: var(--main-green);
     color: white;
     padding: 50px 20px;
+    /* max-width: 400px; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-top: -20px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     position: relative;
     z-index: 2;
 }
@@ -275,7 +278,11 @@ body {
 .countdown-timer {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    flex-wrap: wrap;
+    gap: 10px; 
+    /* Tambahkan dua baris di bawah ini */
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .time-box {

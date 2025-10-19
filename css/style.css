@@ -91,7 +91,7 @@ body {
     gap: 8px;
     transition: transform 0.3s ease;
     /* Tambahkan baris ini untuk menengahkan tombol */
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 .btn-open:hover {
@@ -257,42 +257,69 @@ body {
 /* BAGIAN LAINNYA (COUNTDOWN, COUPLE, DLL.)                */
 /* ======================================================= */
 .countdown-section {
-    background-color: var(--main-green);
-    color: white;
+    /* Warna latar belakang sage green seperti di gambar */
+    background-color: #B0B8A4;
+    /* Warna teks utama di section ini (untuk "We are waiting for...") */
+    color: #5A6351;
     padding: 50px 20px;
-    /* max-width: 400px; */
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px 20px 20px 20px;
     margin-top: -20px;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
     position: relative;
     z-index: 2;
+    margin-left: 1em;
+    margin-right: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.countdown-section p {
+    font-size: 1rem;
 }
 
 .countdown-section h2 {
-    font-size: 2.5rem;
+    /* Menggunakan font serif untuk "The Adventure" */
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 3rem;
+    font-weight: normal;
+    /* Dibuat tidak tebal */
     margin: 10px 0 30px;
+    /* Warna sama dengan teks di atasnya */
+    color: #5A6351;
 }
 
 .countdown-timer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px; 
-    /* Tambahkan dua baris di bawah ini */
-    max-width: 400px;
+    gap: 15px;
+    /* Sedikit memperlebar jarak antar kotak */
+    max-width: 450px;
+    /* Menyesuaikan lebar agar pas */
     margin: 0 auto;
 }
 
 .time-box {
+    /* Warna latar kotak yang lebih gelap */
+    background-color: #5F7161;
+    /* Warna teks untuk label (Days, Hours, etc) */
+    color: #DDE1DD;
+    padding: 15px 10px;
+    border-radius: 10px;
+    width: 85px;
+    /* Sedikit menyesuaikan lebar kotak */
     display: flex;
     flex-direction: column;
+    font-weight: 400;
+    /* Teks label dibuat tidak tebal */
+    line-height: 1.2;
+    font-size: 0.9rem;
 }
 
 .time-box span {
+    /* Warna angka menjadi putih bersih */
+    color: #FFFFFF;
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .couple-section {

@@ -1,4 +1,21 @@
 document.addEventListener('DOMContentLoaded', function () {
+    const guestList = {
+        'A01': 'Alumni SDN Sukamaju 5',
+        'A02': 'Sirkel Percaya Rencana Tuhanku',
+        'A03': 'Sirkel YTTA'
+    }
+    // Fungsi untuk mengambil nama tamu undangan dari parameter url
+    const urlParams = new URLSearchParams(window.location.search);
+    const guestId = urlParams.get('id'); // Kita akan menggunakan parameter '?to='
+
+    const guestNameElement = document.querySelector('.guest-name');
+
+    if (guestId && guestList[guestId]) {
+        guestNameElement.textContent = guestList[guestId]
+    } else {
+        guestNameElement.textContent = 'Tamu Undangan'
+    }
+
     const cover = document.getElementById('cover');
     const openButton = document.getElementById('open-invitation');
     const mainContent = document.getElementById('main-content');

@@ -96,3 +96,83 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     sections.forEach(section => observer.observe(section));
 });
+
+// =======================================================
+// FUNGSI UNTUK MODAL / POPUP KADO PERNIKAHAN
+// =======================================================
+const giftModal = document.getElementById('gift-modal');
+if (giftModal) {
+    const infoButtons = document.querySelectorAll('.info-btn');
+    const closeModalBtn = document.querySelector('.modal-close-btn');
+    const overlay = document.querySelector('.modal-overlay');
+    const modalTitle = document.getElementById('modal-title');
+    const modalBody = document.getElementById('modal-body');
+    const copyButton = document.getElementById('modal-copy-btn');
+
+    // ISI DETAIL KADO DI SINI
+    // Ganti dengan informasi rekening, alamat, atau link gambar QRIS Anda
+    const giftData = {
+        transfer: {
+            title: 'Bank Transfer',
+            details: 'BCA: 1234567890\na.n. Ghina Ghaniyyah',
+            copyText: '1234567890'
+        },
+        qris: {
+            title: 'QRIS',
+            // Ganti src="" dengan link gambar QRIS Anda
+            details: '<img src="" alt="QR Code">',
+            copyText: null // Tidak ada teks untuk disalin
+        },
+        gift: {
+            title: 'Kirim Kado',
+            details: 'Alamat:\nJl. Bahagia Selalu No. 123, Kota Kasih\n\nPenerima: Ghina & Dimas\n(Mohon konfirmasi via WA)',
+            copyText: 'Jl. Bahagia Selalu No. 123, Kota Kasih'
+        }
+    };
+
+    // Fungsi untuk membuka modal
+    const openModal = (type) => {
+        const data = giftData[type];
+        if (!data) return;
+
+        modalTitle.textContent = data.title;
+        modalBody.innerHTML = data.details; // Menggunakan innerHTML agar tag <img> bisa dirender
+
+        if (data.copyText) {
+            copyButton.style.display = 'inline-flex';
+            copyButton.dataset.copy = data.copyText;
+            copyButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Salin`;
+        } else {
+            copyButton.style.display = 'none';
+        }
+
+        giftModal.classList.remove('hidden');
+    };
+
+    // Fungsi untuk menutup modal
+    const closeModal = () => {
+        giftModal.classList.add('hidden');
+    };
+
+    // Event listener untuk setiap tombol "Info"
+    infoButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const giftType = button.dataset.giftType;
+            openModal(giftType);
+        });
+    });
+
+    // Event listener untuk tombol copy
+    copyButton.addEventListener('click', () => {
+        navigator.clipboard.writeText(copyButton.dataset.copy).then(() => {
+            copyButton.textContent = 'Berhasil Disalin!';
+            setTimeout(() => {
+                copyButton.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Salin`;
+            }, 2000);
+        });
+    });
+
+    // Event listener untuk menutup modal
+    closeModalBtn.addEventListener('click', closeModal);
+    overlay.addEventListener('click', closeModal);
+}

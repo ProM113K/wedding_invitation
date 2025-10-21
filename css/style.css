@@ -94,6 +94,11 @@ body {
     margin: 0 auto;
 }
 
+.btn-open svg {
+    animation: wiggle 1.5s linear infinite;
+    transform-origin: center;
+}
+
 .btn-open:hover {
     transform: scale(1.05);
 }
@@ -664,4 +669,34 @@ footer>p {
 .animate-on-scroll.is-visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(0);
+    }
+
+    10% {
+        transform: rotate(-10deg);
+    }
+
+    20% {
+        transform: rotate(10deg);
+    }
+
+    30% {
+        transform: rotate(-10deg);
+    }
+
+    40% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
 }

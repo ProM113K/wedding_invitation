@@ -114,8 +114,8 @@ if (giftModal) {
     const giftData = {
         transfer: {
             title: 'Bank Transfer',
-            details: 'BCA: 1234567890\na.n. Ghina Ghaniyyah',
-            copyText: '1234567890'
+            details: 'BCA: 8415675603\na.n. Ghina Ghaniyyah',
+            copyText: '8415675603'
         },
         qris: {
             title: 'QRIS',

@@ -125,6 +125,85 @@ body {
     transform: scale(1.05);
 }
 
+/* =======================================
+   STYLE CARD AYAT (Sesuai Gambar)
+   ======================================= */
+
+/* * 1. Styling Card Utama (Container)
+*/
+.ayat-card {
+    /* Menggunakan font Merriweather yang diimpor di HTML */
+    font-family: 'Merriweather', serif;
+
+    width: 90%;
+    max-width: 600px;
+    /* Atur lebar card sesuai selera */
+    margin: 20% auto;
+    /* Membuat card di tengah (opsional) */
+
+    /* Ini kunci agar sudut gambar ikut melengkung */
+    border-radius: 12px;
+    overflow: hidden;
+
+    /* Bayangan lembut seperti di contoh */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+    /* Mencegah celah aneh antara gambar dan teks */
+    line-height: 0;
+}
+
+/* * 2. Styling Gambar
+*/
+.card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* Menghilangkan spasi ekstra di bawah gambar */
+}
+
+/* * 3. Styling Kotak Teks (Quote Box)
+*/
+.card-quote-box {
+    background-color: #3c3c3c;
+    /* Warna abu-abu gelap pekat */
+    padding: 30px 25px;
+    /* Jarak di dalam kotak */
+    line-height: 1.7;
+    /* Jarak antar baris teks (PENTING!) */
+}
+
+/* * 4. Styling Teks Kutipan (Lorem Ipsum)
+ * Ini bagian tipografi utama
+*/
+.quote-text {
+    color: #afafaf;
+    /* Warna abu-abu muda (tidak terlalu putih) */
+    font-style: italic;
+    /* Teks miring */
+    font-size: 1rem;
+    /* 16px */
+    text-align: center;
+    margin: 0;
+    /* Menghilangkan margin default paragraf */
+}
+
+/* * 5. Styling Teks Sumber (Nama Surat)
+*/
+.quote-source {
+    color: #efefef;
+    /* Warna lebih terang/putih */
+    font-weight: 700;
+    /* Bold */
+    font-style: normal;
+    /* Tidak miring */
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    /* Menghilangkan margin default */
+    margin-top: 20px;
+    /* Jarak dari kutipan di atasnya */
+}
+
 /* ======================================================= */
 /* KONTEN UTAMA & TOMBOL BANTUAN                           */
 /* ======================================================= */

@@ -164,7 +164,7 @@ body {
 /* * 3. Styling Kotak Teks (Quote Box)
 */
 .card-quote-box {
-    background-color: #3c3c3c;
+    background-color: #0b6d1b;
     /* Warna abu-abu gelap pekat */
     padding: 30px 25px;
     /* Jarak di dalam kotak */
@@ -176,7 +176,7 @@ body {
  * Ini bagian tipografi utama
 */
 .quote-text {
-    color: #afafaf;
+    color: #c0c0c0;
     /* Warna abu-abu muda (tidak terlalu putih) */
     font-style: italic;
     /* Teks miring */
@@ -316,20 +316,6 @@ body {
     font-family: var(--script-font);
     font-size: 2rem;
     margin: 5px 0;
-}
-
-.hero-foreground-image {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    max-width: 500px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.hero-foreground-image img {
-    width: 100%;
-    display: block;
 }
 
 /* Animasi untuk teks di Hero Section */

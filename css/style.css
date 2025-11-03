@@ -71,8 +71,10 @@ body {
 
 .cover-content {
     animation: fadeIn 2s ease-in-out;
-    position: relative; /* Tambahkan ini */
-    z-index: 2; /* Tambahkan ini */
+    position: relative;
+    /* Tambahkan ini */
+    z-index: 2;
+    /* Tambahkan ini */
 }
 
 .cover-intro {
@@ -276,6 +278,166 @@ body {
 
 .hero-content .animate-item:nth-child(5) {
     animation-delay: 1.7s;
+}
+
+/* =======================================
+   STYLE SECTION KONFIRMASI KEHADIRAN
+   ======================================= */
+
+.rsvp-section {
+    background-color: #121212;
+    /* Hitam pekat (atau #000) */
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* Font dasar untuk form */
+}
+
+.rsvp-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*
+ * Teks Judul (Sesuai permintaan Anda)
+ * 1. Font Dancing Script (mirip gambar)
+ * 2. Warna Hijau
+*/
+.rsvp-section .section-title {
+    /* Diambil dari Google Font di HTML */
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    /* Ukuran bisa disesuaikan */
+    font-weight: 700;
+    color: #4CAF50;
+    /* <-- WARNA HIJAU */
+    margin: 0 0 10px 0;
+}
+
+.rsvp-section .section-subtitle {
+    font-size: 1rem;
+    color: #ccc;
+    /* Sedikit lebih redup */
+    margin-bottom: 40px;
+}
+
+/*
+ * STYLING FORM (Bagian Penting)
+ * Menggunakan Flexbox untuk menyusun field
+*/
+.rsvp-form {
+    display: flex;
+    flex-wrap: wrap;
+    /* Izinkan field 'turun' ke bawah jika tidak muat */
+    gap: 20px;
+    /* Jarak antar elemen form */
+
+    /* * Trik Penting: 
+   * Menjajarkan bagian bawah input dengan tombol "Kirim"
+   * (karena tombol tidak punya label di atasnya)
+  */
+    align-items: flex-end;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    /* Susun label di atas input */
+    text-align: left;
+    /* Label rata kiri */
+}
+
+/* * Pembagian Lebar Field
+ * 'flex: 1;' artinya 'field' bisa membesar/mengecil
+*/
+#group-nama {
+    flex: 2;
+    /* Nama dibuat 2x lebih lebar */
+    min-width: 200px;
+    /* Lebar minimum */
+}
+
+#group-jumlah {
+    flex: 1;
+    min-width: 80px;
+}
+
+#group-konfirmasi {
+    flex: 1;
+    min-width: 150px;
+}
+
+/* Styling untuk semua input dan select */
+.form-group label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    background-color: #ffffff;
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    height: 48px;
+    /* Samakan tinggi semua input */
+    box-sizing: border-box;
+    /* Padding tidak menambah ukuran */
+}
+
+/* Styling Tombol Kirim */
+.submit-btn {
+    background-color: #8f8f8f;
+    /* Warna pink dari gambar */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 0 30px;
+    /* Padding horizontal */
+    height: 48px;
+    /* Samakan tinggi dengan input */
+    font-size: 1rem;
+    font-weight: normal;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #000000;
+    /* Warna pink sedikit lebih gelap */
+}
+
+
+/* * =======================================
+ * RESPONSIVE UNTUK MOBILE
+ * =======================================
+ * (Layar di bawah 768px)
+*/
+@media (max-width: 768px) {
+    .rsvp-section .section-title {
+        font-size: 3rem;
+        /* Kecilkan judul di mobile */
+    }
+
+    .rsvp-form {
+        /* Ubah arah flex menjadi kolom (vertikal) */
+        flex-direction: column;
+
+        /* Buat semua field rata kiri, tidak lagi sejajar bawah */
+        align-items: stretch;
+    }
+
+    /* * Di mobile, kita tidak perlu 'min-width' 
+   * karena semua field akan 100% lebar layar
+  */
+    #group-nama,
+    #group-jumlah,
+    #group-konfirmasi {
+        min-width: 100%;
+    }
 }
 
 /* ======================================================= */

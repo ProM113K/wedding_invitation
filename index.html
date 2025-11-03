@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -126,6 +129,38 @@
                 </div>
             </section>
         </main>
+
+        <section class="rsvp-section">
+            <div class="container">
+                <h2 class="section-title">Konfirmasi Kehadiran</h2>
+                <p class="section-subtitle">
+                    Isi form di bawah ini untuk melakukan konfirmasi kehadiran.
+                </p>
+
+                <form class="rsvp-form" action="#" method="POST">
+                    <div class="form-group" id="group-nama">
+                        <label for="nama">Nama</label>
+                        <input type="text" id="nama" name="nama" placeholder="Masukan nama Anda" required>
+                    </div>
+
+                    <div class="form-group" id="group-jumlah">
+                        <label for="jumlah">Jumlah</label>
+                        <input type="number" id="jumlah" name="jumlah" value="1" min="1" required>
+                    </div>
+
+                    <div class="form-group" id="group-konfirmasi">
+                        <label for="konfirmasi">Konfirmasi</label>
+                        <select id="konfirmasi" name="konfirmasi" required>
+                            <option value="Hadir">Hadir</option>
+                            <option value="Tidak Hadir">Tidak Hadir</option>
+                            <option value="Ragu-ragu">Ragu-ragu</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Kirim</button>
+                </form>
+            </div>
+        </section>
 
         <section id="gift-section" class="gift-section animate-on-scroll">
             <div class="section-content">

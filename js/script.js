@@ -112,21 +112,20 @@ if (giftModal) {
     // ISI DETAIL KADO DI SINI
     // Ganti dengan informasi rekening, alamat, atau link gambar QRIS Anda
     const giftData = {
-        transfer: {
+        transfer1: {
             title: 'Bank Transfer',
             details: 'BCA: 8415675603\na.n. Ghina Ghaniyyah',
             copyText: '8415675603'
         },
-        qris: {
-            title: 'QRIS',
-            // Ganti src="" dengan link gambar QRIS Anda
-            details: '<img src="" alt="QR Code">',
-            copyText: null // Tidak ada teks untuk disalin
+        transfer2: {
+            title: 'Bank Transfer',
+            details: 'GoPay: 082110051312 \na.n. Dimas Putra Widiyanto',
+            copyText: '082110051312'
         },
         gift: {
             title: 'Kirim Kado',
-            details: 'Alamat:\nJl. Bahagia Selalu No. 123, Kota Kasih\n\nPenerima: Ghina & Dimas\n(Mohon konfirmasi via WA)',
-            copyText: 'Jl. Bahagia Selalu No. 123, Kota Kasih'
+            details: 'Alamat:\nPerumahan Taman Bumyagara, Blok G8 No. 32, Sanggar VGV\n\nPenerima: Ghina & Dimas\n(Mohon konfirmasi via WA)',
+            copyText: 'Perumahan Taman Bumyagara, Blok G8 No. 32, RT.6/RW.3, Mustika Jaya, Mustika Jaya (Sanggar VGV), MUSTIKA JAYA, KOTA BEKASI, JAWA BARAT, ID, 17158'
         }
     };
 

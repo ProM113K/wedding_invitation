@@ -164,7 +164,7 @@ body {
 /* * 3. Styling Kotak Teks (Quote Box)
 */
 .card-quote-box {
-    background-color: #4B5320;
+    background-color: #B0B8A4;
     /* Warna abu-abu gelap pekat */
     padding: 30px 25px;
     /* Jarak di dalam kotak */
@@ -176,7 +176,7 @@ body {
  * Ini bagian tipografi utama
 */
 .quote-text {
-    color: #c0c0c0;
+    color: #5A6351;
     /* Warna abu-abu muda (tidak terlalu putih) */
     font-style: italic;
     /* Teks miring */
@@ -804,7 +804,7 @@ body {
 }
 
 .event-icon {
-    width: 80px;
+    width: 15%;
     margin-bottom: 15px;
 }
 

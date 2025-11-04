@@ -909,8 +909,19 @@ footer>p {
 
 .animate-on-scroll {
     opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    transition: opacity 0.8s ease-out 0.8s, transform 0.8s ease-out 0.8s;
+}
+
+.slide-in-from-left {
+    transform: translateX(-50px);
+}
+
+.slide-in-from-right {
+    transform: translateX(50px);
+}
+
+.slide-in-from-bottom {
+    transform: translateY(50px);
 }
 
 .animate-on-scroll.is-visible {

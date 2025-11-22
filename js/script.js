@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
         'D01': 'Alumni SDN Sukamaju 5',
         'D02': 'Sirkel Percaya Rencana Tuhanku',
         'D03': 'Sirkel YTTA',
-        'G01': 'Alumni 87 SMKI'
+        'G01-Alumni-87-SMKI': 'Alumni 87 SMKI',
+        'G02-Alumni-SMKI-JBDTB': 'Alumni SMKI Jabodetabek'
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url
     const urlParams = new URLSearchParams(window.location.search);

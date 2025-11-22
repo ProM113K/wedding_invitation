@@ -16,9 +16,10 @@ window.addEventListener("load", function() {
 
 document.addEventListener('DOMContentLoaded', function () {
     const guestList = {
-        'A01': 'Alumni SDN Sukamaju 5',
-        'A02': 'Sirkel Percaya Rencana Tuhanku',
-        'A03': 'Sirkel YTTA'
+        'D01': 'Alumni SDN Sukamaju 5',
+        'D02': 'Sirkel Percaya Rencana Tuhanku',
+        'D03': 'Sirkel YTTA',
+        'G01': 'Alumni 87 SMKI'
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url
     const urlParams = new URLSearchParams(window.location.search);

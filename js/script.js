@@ -38,7 +38,9 @@ document.addEventListener('DOMContentLoaded', function () {
         'G17-Evn-Fadhil': 'Fadhli & Partner',
         'G18-Evn-Angela': 'Angela & Partner',
         'G19-Evn-Sifa': 'Sifa & Partner',
-        'G20-Evn-Angel': 'Angel & Partner'
+        'G20-Evn-Angel': 'Angel & Partner',
+        'G21-SD-Apif': 'Apif & Partner',
+        
 
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url

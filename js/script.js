@@ -20,7 +20,26 @@ document.addEventListener('DOMContentLoaded', function () {
         'D02': 'Sirkel Percaya Rencana Tuhanku',
         'D03': 'Sirkel YTTA',
         'G01-Alumni-87-SMKI': 'Alumni 87 SMKI',
-        'G02-Alumni-SMKI-JBDTB': 'Alumni SMKI Jabodetabek'
+        'G02-Alumni-SMKI-JBDTB': 'Alumni SMKI Jabodetabek',
+        'G03-Evn-Jeff': 'Pak Jeffri Sugiarto & Family',
+        'G04-Evn-Apin': 'Bang Apin & Family',
+        'G05-Evn-Qory': 'Ka Qory & Family',
+        'G06-Evn-Irma': 'Ka Irma & Partner',
+        'G07-Evn-Novi': 'Ka Novi & Family',
+        'G08-Evn-Mega': 'Ka Mega & Partner',
+        'G09-Evn-Mita': 'Ka Mita & Partner',
+        'G10-Evn-Nadira': 'Ka Nadira & Partner',
+        'G11-Evn-Vela': 'Ka Vela & Partner',
+        'G12-Evn-Putri': 'Ka Putri & Partner',
+        'G13-Evn-Ipeh': 'Ipeh & Partner',
+        'G14-Evn-Nita': 'Nita & Partner',
+        'G15-Evn-Biswa': 'Biswa & Partner',
+        'G16-Evn-Fauzan': 'Fauzan & Partner',
+        'G17-Evn-Fadhil': 'Fadhli & Partner',
+        'G18-Evn-Angela': 'Angela & Partner',
+        'G19-Evn-Sifa': 'Sifa & Partner',
+        'G20-Evn-Angel': 'Angel & Partner'
+
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url
     const urlParams = new URLSearchParams(window.location.search);

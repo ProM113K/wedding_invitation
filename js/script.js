@@ -16,9 +16,9 @@ window.addEventListener("load", function () {
 
 document.addEventListener('DOMContentLoaded', function () {
     const guestList = {
-        'D01': 'Alumni SDN Sukamaju 5',
-        'D02': 'King Ilham & Friends',
-        'D03': 'Sirkel YTTA',
+        'D01-SKM5': 'Alumni SDN Sukamaju 5',
+        'D02-King': 'King Ilham & Friends',
+        'D03-YTTA': 'Sirkel YTTA',
         'G01-Alumni-87-SMKI': 'Alumni 87 SMKI',
         'G02-Alumni-SMKI-JBDTB': 'Alumni SMKI Jabodetabek',
         'G03-Evn-Jeff': 'Pak Jeffri Sugiarto & Family',

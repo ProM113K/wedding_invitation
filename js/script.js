@@ -1,17 +1,17 @@
-window.addEventListener("load", function() {
-  const form = document.getElementById('my-form');
-  form.addEventListener("submit", function(e) {
-    e.preventDefault();
-    const data = new FormData(form);
-    const action = e.target.action;
-    fetch(action, {
-      method: 'POST',
-      body: data,
-    })
-    .then(() => {
-      alert("Terima kasih telah memberikan konfirmasi!");
-    })
-  });
+window.addEventListener("load", function () {
+    const form = document.getElementById('my-form');
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const data = new FormData(form);
+        const action = e.target.action;
+        fetch(action, {
+            method: 'POST',
+            body: data,
+        })
+            .then(() => {
+                alert("Terima kasih telah memberikan konfirmasi!");
+            })
+    });
 });
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -50,7 +50,47 @@ document.addEventListener('DOMContentLoaded', function () {
         'G29-KKP-Angga': 'Bang Angga & Partner',
         'G30-KKP-Topan': 'Bang Topan & Partner',
         'G31-KKP-Anin': 'Mba Anin & Partner',
-        'G32-SD-Monic': 'Monic & Partner'
+        'G32-SD-Monic': 'Monic & Partner',
+        'G33-UHMK-Safier': 'Pak Safier & Partner',
+        'G34-UHMK-Adel': 'Adel & Partner',
+        'G35-UHMK-Ainaya': 'Ainaya & Partner',
+        'G36-UHMK-Alif': 'Alif & Partner',
+        'G37-UHMK-Alifio': 'Alifio & Partner',
+        'G38-UHMK-April': 'April & Partner',
+        'G39-UHMK-Ariv': 'Ariv & Partner',
+        'G40-UHMK-Ariha': 'Ariha & Partner',
+        'G41-UHMK-Asep': 'Asep & Partner',
+        'G42-UHMK-Atsna': 'Atsna & Partner',
+        'G43-UHMK-Apriatunisa': 'Apriatunisa & Partner',
+        'G44-UHMK-Camel': 'Camel & Partner',
+        'G45-UHMK-Jihan': 'Jihan & Partner',
+        'G46-UHMK-Diah': 'Diah & Partner',
+        'G47-UHMK-Dimas': 'Dimas & Partner',
+        'G48-UHMK-Dinda': 'Dinda & Partner',
+        'G49-UHMK-Dwi': 'Dwi & Partner',
+        'G50-UHMK-Halawa': 'Halawa & Partner',
+        'G51-UHMK-Ilham': 'Ilham & Partner',
+        'G52-UHMK-Inay': 'Inay & Partner',
+        'G53-UHMK-Indah': 'Indah & Partner',
+        'G54-UHMK-Leny': 'Leny & Partner',
+        'G55-UHMK-Lusiana': 'Lusiana & Partner',
+        'G56-UHMK-Manda': 'Manda & Partner',
+        'G57-UHMK-Mila': 'Mila & Partner',
+        'G58-UHMK-Mufida': 'Mufida & Partner',
+        'G59-UHMK-Nia': 'Nia & Partner',
+        'G60-UHMK-Nisa': 'Nisa & Partner',
+        'G61-UHMK-PutriAulia': 'Putri Aulia & Partner',
+        'G62-UHMK-Putri': 'Putri & Partner',
+        'G63-UHMK-Reza': 'Reza & Partner',
+        'G64-UHMK-Rika': 'Rika & Partner',
+        'G65-UHMK-Rozi': 'Rozi & Partner',
+        'G66-UHMK-Ruli': 'Ruli & Partner',
+        'G67-UHMK-Salsabilla': 'Salsabilla & Partner',
+        'G68-UHMK-Sifa': 'Sifa & Partner',
+        'G69-UHMK-Sila': 'Sila & Partner',
+        'G70-UHMK-Sindy': 'Sindy & Partner',
+        'G71-UHMK-Tya': 'Tya & Partner',
+        'G72-UHMK-Wawa': 'Wawa & Partner',
 
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url

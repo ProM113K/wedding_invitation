@@ -40,7 +40,13 @@ document.addEventListener('DOMContentLoaded', function () {
         'G19-Evn-Sifa': 'Sifa & Partner',
         'G20-Evn-Angel': 'Angel & Partner',
         'G21-SD-Apif': 'Apif & Partner',
-        'G22-Penari-Abo': 'Uda Abo & Partner'
+        'G22-Penari-Abo': 'Uda Abo & Partner',
+        'G23-SMP-Enuy': 'Enuy & Partner',
+        'G24-SMP-Gamal': 'Gamal & Prtner',
+        'G25-SMP-Hizqil': 'Hizqil & Partner',
+        'G26-SMP-Maryana': 'Maryana & Partner',
+        'G27-SMP-Septi': 'Septi & Partner',
+        'G28-SMP-Vivin': 'Vivin & Partner'
 
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url

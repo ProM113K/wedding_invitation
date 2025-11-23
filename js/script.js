@@ -49,7 +49,8 @@ document.addEventListener('DOMContentLoaded', function () {
         'G28-SMP-Vivin': 'Vivin & Partner',
         'G29-KKP-Angga': 'Bang Angga & Partner',
         'G30-KKP-Topan': 'Bang Topan & Partner',
-        'G31-KKP-Anin': 'Mba Anin & Partner'
+        'G31-KKP-Anin': 'Mba Anin & Partner',
+        'G32-SD-Monic': 'Monic & Partner'
 
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url

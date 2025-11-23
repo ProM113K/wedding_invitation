@@ -19,6 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
         'D01-SKM5': 'Alumni SDN Sukamaju 5',
         'D02-King': 'King Ilham & Friends',
         'D03-YTTA': 'Sirkel YTTA',
+        'D04-RPL': 'Alumni RPL SMK YAJ',
+        'D05-TI413': 'Alumni TI 413 LP3I',
         'G01-Alumni-87-SMKI': 'Alumni 87 SMKI',
         'G02-Alumni-SMKI-JBDTB': 'Alumni SMKI Jabodetabek',
         'G03-Evn-Jeff': 'Pak Jeffri Sugiarto & Family',

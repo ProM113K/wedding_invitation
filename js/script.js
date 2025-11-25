@@ -144,6 +144,21 @@ document.addEventListener('DOMContentLoaded', function () {
         'G118-SMK-Utay': 'Utay & Partner',
         'G119-SMK-Virly': 'Virly & Partner',
         'G120-SMK-Widya': 'Widya & Partner',
+        'G121-PENARI-AbahAdi': 'Abah Adi & Partner',
+        'G122-PENARI-Adel': 'Adel & Partner',
+        'G123-PENARI-Alan': 'Alan & Partner',
+        'G124-PENARI-Aliyah': 'Aliyah & Partner',
+        'G125-PENARI-Andri': 'Andri & Partner',
+        'G126-PENARI-Awan': 'Awan & Partner',
+        'G127-PENARI-Agal': 'Agal & Partner',
+        'G128-PENARI-Albie': 'Albie & Partner',
+        'G129-PENARI-Cici': 'Cici & Partner',
+        'G130-PENARI-Chika': 'Chika & Keluarga',
+        'G131-PENARI-Chris': 'Chris & Partner',
+        'G132-PENARI-Daniel': 'Daniel & Partner',
+        'G133-PENARI-Delvi': 'Delvi & Partner',
+        'G134-PENARI-Dita': 'Dita & Partner',
+        'G135-PENARI-Kartika': 'Kartika & Partner',
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url
     const urlParams = new URLSearchParams(window.location.search);

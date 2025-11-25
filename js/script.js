@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'D02-King': 'King Ilham & Friends',
         'D03-YTTA': 'Sirkel YTTA',
         'D04-RPL': 'Alumni RPL SMK YAJ',
-        'D05-TI413': 'Alumni TI 413 LP3I',
+        'D05-TI413': 'Alumni TI 413 & TI 414 LP3I',
         'D06-GenZ-OMG': 'Ardhiffa, Nathan & Aslam',
         'G01-Alumni-87-SMKI': 'Alumni 87 SMKI',
         'G02-Alumni-SMKI-JBDTB': 'Alumni SMKI Jabodetabek',

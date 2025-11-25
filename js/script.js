@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'D07-Frido': 'Frido Anggoro & Family',
         'D08-Andika': 'Andika & Family',
         'D09-Amri': 'Amri Rosadi',
+        'D10-Tio': 'Tio & Partner',
         'G01-Alumni-87-SMKI': 'Alumni 87 SMKI',
         'G02-Alumni-SMKI-JBDTB': 'Alumni SMKI Jabodetabek',
         'G03-Evn-Jeff': 'Pak Jeffri Sugiarto & Family',

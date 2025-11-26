@@ -295,7 +295,27 @@ document.addEventListener('DOMContentLoaded', function () {
         "G270-Sang-Pengajian": "Ibu - Ibu Pengajian",
         "G271-Sang-Kasman": "Mak Kasman & Keluarga",
         "G272-Sang-Eva": "Bundo Eva & Keluarga",
-        "G273-Sang-Mira": "Bundo Mira & Keluarga"
+        "G273-Sang-Mira": "Bundo Mira & Keluarga",
+        "G274-Sang-Atmayenti": "Bundo Atmayenti & Keluarga",
+        "G275-Sang-Yus": "H Yus Darnius & Keluarga",
+        "G276-Sang-Syofinar": "Bundo Syofinar & Keluarga",
+        "G277-Sang-Mainur": "Bundo Mainur & Keluarga",
+        "G278-Sang-Adit": "Mak Adit & Keluarga",
+        "G279-Sang-Agung": "Mak Agung & Keluarga",
+        "G280-Sang-Ahman": "Pak Ahman & Keluarga",
+        "G281-Sang-Akmil": "Pak Akmil & Keluarga",
+        "G282-Sang-Anja": "Anja Teja & Keluarga",
+        "G283-Sang-Arian": "Arian Anis & Keluarga",
+        "G284-Sang-Sap": "H Sap & Keluarga",
+        "G285-Sang-Ingga": "Ingga & Keluarga",
+        "G286-Sang-Jen": "Pak Jen & Keluarga",
+        "G287-Sang-Roza": "Roza Yesi & Keluarga",
+        "G288-Sang-Taqiyya": "Taqiyya Febri & Partner",
+        "G289-Sang-Zulhendri": "Pak Zulhendri & Keluarga",
+        "G290-Sang-Dedi": "Dedi & Keluarga",
+        "G291-Sang-Yanti": "Yanti & Keluarga",
+        "G292-Sang-Dedi": "Dedi Patra & Keluarga",
+        "G293-Sang-Lelmiati": "Lelmiati & Keluarga"
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url
     const urlParams = new URLSearchParams(window.location.search);

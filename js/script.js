@@ -473,7 +473,27 @@ document.addEventListener('DOMContentLoaded', function () {
         "G448-Sang-Mis": "Mis & Keluarga",
         "G449-Sang-RianTanamo": "Rian Tanamo & Keluarga",
         "G450-Sang-EriCaniago": "Eri Caniago & Keluarga",
-        "G451-Sang-BennyZ": "Benny Z & Keluarga"
+        "G451-Sang-BennyZ": "Benny Z & Keluarga",
+        "G452-Sang-HermanMalay": "Herman Malay & Keluarga",
+        "G453-Sang-ZulIrvan": "Zul Irvan & Keluarga",
+        "G454-Sang-ArmanTajo": "Arman Tajo & Keluarga",
+        "G455-Sang-AndiDewi": "Andi Dewi & Keluarga",
+        "G456-Sang-AtikGayo": "Atik Gayo & Keluarga",
+        "G457-Sang-PaCikJuki": "Pa Cik Juki & Keluarga",
+        "G458-Sang-Opes": "Opes & Keluarga",
+        "G459-Sang-TanteMiniaturLia": "Tante Miniatur Lia & Keluarga",
+        "G460-Sang-YudiLut": "Yudi Lut & Keluarga",
+        "G461-Sang-Yanto": "Yanto & Keluarga",
+        "G462-Sang-Imel": "Imel & Keluarga",
+        "G463-Sang-Puput": "Puput & Keluarga",
+        "G464-Sang-Tuko": "Tuko & Keluarga",
+        "G465-Sang-Mancha": "Mancha & Keluarga",
+        "G466-Sang-Coan": "Coan & Keluarga",
+        "G467-Sang-Dwi": "Dwi & Keluarga",
+        "G468-Sang-Dchonk": "D'chonk & Keluarga",
+        "G469-Sang-Feri": "Feri & Keluarga",
+        "G470-Sang-IbuRatu": "Ibu Ratu & Keluarga",
+        "G471-Sang-Doris": "Doris & Keluarga"
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url
     const urlParams = new URLSearchParams(window.location.search);

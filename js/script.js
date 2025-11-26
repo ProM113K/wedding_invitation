@@ -179,6 +179,11 @@ document.addEventListener('DOMContentLoaded', function () {
         'G154-PARMUSI-Sela': 'Ka Sela & Partner',
         'G155-PARMUSI-Syahril': 'Ka Syahril & Keluarga',
         'G156-PARMUSI-Syahrul': 'Ka Syahrul & Partner',
+        'G157-TAMBAHAN-Wirda': 'Ka Wirda & Partner',
+        'G158-TAMBAHAN-Tarisa': 'Tarisa & Partner',
+        'G159-TAMBAHAN-Amel': 'Amel & Partner',
+        'G160-TAMBAHAN-Rara': 'Rara & Partner',
+        'G161-TAMBAHAN-Syifa': 'Syifa & Partner'
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url
     const urlParams = new URLSearchParams(window.location.search);

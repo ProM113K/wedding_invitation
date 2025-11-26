@@ -515,7 +515,11 @@ document.addEventListener('DOMContentLoaded', function () {
         "G490-Sang-Oneng": "Oneng & Keluarga",
         "G491-Sang-Anggi": "Anggi & Keluarga",
         "G492-SMP-Tina": "Tina & Partner",
-        "G493-SMP-Farah": "Farah & Partner"
+        "G493-SMP-Farah": "Farah & Partner",
+        "G494-Sang-Daffa": "Daffa",
+        "G495-Sang-Adrian": "Adrian",
+        "G496-Sang-Mami": "Mami & Keluarga",
+        "G497-Sang-hendra": "Hendra & keluagra",
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url
     const urlParams = new URLSearchParams(window.location.search);

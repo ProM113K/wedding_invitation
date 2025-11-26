@@ -493,7 +493,27 @@ document.addEventListener('DOMContentLoaded', function () {
         "G468-Sang-Dchonk": "D'chonk & Keluarga",
         "G469-Sang-Feri": "Feri & Keluarga",
         "G470-Sang-IbuRatu": "Ibu Ratu & Keluarga",
-        "G471-Sang-Doris": "Doris & Keluarga"
+        "G471-Sang-Doris": "Doris & Keluarga",
+        "G472-Sang-Omick": "Omick & Keluarga",
+        "G473-Sang-Jeky": "Jeky",
+        "G474-Sang-RiriKawasaki": "Riri Kawasaki",
+        "G475-Sang-DedeDelon": "Dede Delon",
+        "G476-Sang-KaIda": "Ka Ida & Keluarga",
+        "G477-Sang-Srintil": "Srintil & Keluarga",
+        "G478-Sang-Godil": "Godil & Keluarga",
+        "G479-Sang-KaYus": "Ka Yus & Keluarga",
+        "G480-Sang-IbuIta": "Ibu Ita & Keluarga",
+        "G481-Sang-IbuSari": "Ibu Sari & Keluarga",
+        "G482-Sang-Leni": "Leni & Keluarga",
+        "G483-Sang-IraInyong": "Ira Inyong & Keluarga",
+        "G484-Sang-PakJum": "Pak Jum & Keluarga",
+        "G485-Sang-Hendro": "Hendro & Keluarga",
+        "G486-Sang-Doni": "Doni & Keluarga",
+        "G487-Sang-Jani": "Jani & Keluarga",
+        "G488-Sang-YasDona": "Yas Dona & Keluarga",
+        "G489-Sang-Vivi": "Vivi",
+        "G490-Sang-Oneng": "Oneng & Keluarga",
+        "G491-Sang-Anggi": "Anggi & Keluarga"
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url
     const urlParams = new URLSearchParams(window.location.search);

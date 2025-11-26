@@ -355,7 +355,27 @@ document.addEventListener('DOMContentLoaded', function () {
         "G330-Sang-Zul": "Zul Rajo Intan & Keluarga",
         "G331-Sang-Rosi": "Rosi & Keluarga",
         "G332-Sang-Tanti": "Tanti & Keluarga",
-        "G333-Sang-Tuti": "Tuti & Keluarga"
+        "G333-Sang-Tuti": "Tuti & Keluarga",
+        "G334-Sang-Surya": "Surya & Keluarga",
+        "G335-Sang-Raf": "Da Raf & Keluarga",
+        "G336-Sang-Nas": "Da Nas Ida & Keluarga",
+        "G337-Sang-Ilda": "Ilda & Keluarga",
+        "G338-Sang-Amry": "Amry Sy & Keluarga",
+        "G339-Sang-Yen": "Yen Dawan & Keluarga",
+        "G340-Sang-In": "Pak In Bu Cun & Keluarga",
+        "G341-Sang-Nanda": "Nanda & Keluarga",
+        "G342-Sang-Ichak": "Ichak & Keluarga",
+        "G343-Sang-Ponsi": "Ponsi & Keluarga",
+        "G344-Sang-Widi": "Widi Tanti & Keluarga",
+        "G345-Sang-Fandi": "Fandi & Keluarga",
+        "G346-Sang-Mem": "Mem & Keluarga",
+        "G347-Sang-Eva": "Eva Mon & Keluarga",
+        "G348-Sang-Ocha": "Ocha & Keluarga",
+        "G349-Sang-Nur": "Ni Nur & Keluarga",
+        "G350-Sang-Erni": "Erni & Keluarga",
+        "G351-Sang-Kanda": "Kanda Dahniar & Keluarga",
+        "G352-Sang-Niati": "Niati & Keluarga",
+        "G353-Sang-Anjas": "Anjas & Keluarga"
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url
     const urlParams = new URLSearchParams(window.location.search);

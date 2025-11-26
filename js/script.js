@@ -183,7 +183,25 @@ document.addEventListener('DOMContentLoaded', function () {
         'G158-TAMBAHAN-Tarisa': 'Tarisa & Partner',
         'G159-TAMBAHAN-Amel': 'Amel & Partner',
         'G160-TAMBAHAN-Rara': 'Rara & Partner',
-        'G161-TAMBAHAN-Syifa': 'Syifa & Partner'
+        'G161-TAMBAHAN-Syifa': 'Syifa & Partner',
+        "G162-Sang-Mela": "Widi Mela & Keluarga",
+        "G163-Sang-Ita": "Tek Ita & Keluarga",
+        "G164-Sang-Asep": "Asep Sus & Keluarga",
+        "G165-Sang-Minda": "Minda & Keluarga",
+        "G166-Sang-Wahyu": "Wahyu & Keluarga",
+        "G167-Sang-An": "An & Keluarga",
+        "G168-Sang-Loli": "Loli & Keluarga",
+        "G169-Sang-Rini": "Rini & Keluarga",
+        "G170-Sang-Adi": "Net Adi & Keluarga",
+        "G171-Sang-Medi": "Medi & Keluarga",
+        "G172-Sang-Mul": "Mul & Keluarga",
+        "G173-Sang-Nila": "Nila & Keluarga",
+        "G174-Sang-Alman": "Alman Zur & Keluarga",
+        "G175-Sang-Bambang": "Bambang Sri & Keluarga",
+        "G176-Sang-Dawan": "Dawan Nitin & Keluarga",
+        "G177-Sang-Bobi": "Bobi & Keluarga",
+        "G178-Sang-Ira": "Ira & Keluarga",
+        "G179-Sang-Doni": "Doni & Keluarga"
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url
     const urlParams = new URLSearchParams(window.location.search);

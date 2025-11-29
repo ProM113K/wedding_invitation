@@ -713,7 +713,9 @@ document.addEventListener('DOMContentLoaded', function () {
         "G630-Alumni-88": "Alumni 88",
         "G631-Limpapeh": "Limpapeh",
         "G632-Kranji-Lovers": "Kranji Lovers",
-        "G633-Sang-Zen": "Zen & Keluarga"
+        "G633-Sang-Zen": "Zen & Keluarga",
+        "G644-Penari-Tasya": "Ka Tasya & Partner",
+        "G645-Peranir-Wulan": "Ka Wulan & Partner"
     }
     // Fungsi untuk mengambil nama tamu undangan dari parameter url
     const urlParams = new URLSearchParams(window.location.search);

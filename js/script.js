@@ -163,6 +163,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'G138-PARMUSI-Chamidy': 'Ka Chamidy & Partner',
         'G139-PARMUSI-Diky': 'Ka Diky & Partner',
         'G140-PARMUSI-Diyab': 'Ka Diyab & Partner',
+        'D015-Tri-Pinang': 'Trisila & Partner',
         'G141-PARMUSI-Erwin': 'Ka Erwin & Partner',
         'G142-PARMUSI-Eva': 'Ka Eva & Partner',
         'G143-PARMUSI-Fatimah': 'Ka Fatimah & Partner',
